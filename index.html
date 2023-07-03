@@ -1,30 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Theater</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Movie Theater</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
+  <body>
+    <h1>Welcome to Movie Theater</h1>
 
-<body>
-  <h1>Wanna watch a movie? welcome yoo!!!</h1>
+    <div id="movie-details">
+      <img id="poster" src="" alt="Movie Poster" />
+      <h2 id="title"></h2>
+      <p id="runtime"></p>
+      <p id="showtime"></p>
+      <p id="available-tickets"></p>
+      <button id="buy-ticket">Buy Ticket</button>
+      <p id="success-message"></p>
+    </div>
 
-  <div id="movie-details">
-    <img id="poster" src="" alt="Movie Poster">
-    <h2 id="title"></h2>
-    <p id="runtime"></p>
-    <p id="showtime"></p>
-    <p id="available-tickets"></p>
-    <button id="buy-ticket">Buy Ticket</button>
-    <p id="success-message"></p>
-  </div>
+    <h2>Upcoming Films:</h2>
+    <ul id="film-list"></ul>
 
-  <h2>Upcoming Films:</h2>
-  <ul id="film-list"></ul>
-
-  <script src="script.js"></script>
-</body>
-
+    <script src="script.js"></script>
+  </body>
 </html>

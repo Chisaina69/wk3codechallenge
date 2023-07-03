@@ -22,6 +22,7 @@ This is a simple web application that allows users to view upcoming movies and p
 - Clone the repository in your machine
 - Open it up on vscode or your preffered place
 - Open the index.html file and go live
+- Click your desired movie and it will display the details 
 
 ## File Structure
 

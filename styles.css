@@ -42,8 +42,8 @@ h2 {
 
 ul {
   list-style-type: square;
-  padding: 0;
-  margin: 0;
+  padding: 20;
+  margin: 30;
   cursor: pointer;
 }
 
